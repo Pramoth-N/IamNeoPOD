@@ -1,0 +1,126 @@
+.header
+{
+text-align: center;
+background-color: darkgreen;
+border-radius: 50px;
+color: white;
+padding: 10px;
+}
+
+#image
+{
+    height: 1650px;
+    border-radius: 300px;   
+}
+.front
+{
+    display: grid;
+    grid-template-columns: 0% 100% 0%;
+}
+.box
+{
+    z-index: 1;
+    display: none;
+    cursor: pointer;
+}
+.one-1
+{
+    background-color:aqua;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 200px
+}
+.one-2
+{ 
+    background-color: aqua;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: -22px;
+    display: none;
+}
+.one-2 .a1
+{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    background-color:;
+    border-radius: 10px;
+}
+.front:hover .box 
+{
+    display: block;
+}
+.box:hover .one-2
+{
+    display: block;
+    
+}
+.one-1:hover
+{
+    background-color: blue;
+    color: rgb(36, 243, 243);
+}
+.one-2 .a1:hover
+{
+    background-color: darkorchid;
+    color: aqua;
+}
+.box-2
+{
+    display: none;
+    z-index: 1;
+    cursor: pointer;
+}
+.two-1
+{
+    position: relative;
+    background-color:aqua;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: -200px;
+}
+.two-2
+{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    background-color:aqua;
+    border-radius: 10px;
+    width: 60px;
+    margin-left: -200px;
+    margin-top: -22px;
+    display: none;
+}
+.two-2 .a2
+{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    background-color:;
+    border-radius: 10px;
+    width: 50px;
+}
+.box-2:hover .two-2
+{
+    display: block;
+    
+}
+.front:hover .box-2
+{
+    display: block;
+}
+.two-1:hover
+{
+    background-color: blue;
+    color: rgb(36, 243, 243);
+    padding-left: 5px;
+}
+.two-2 .a2:hover
+{
+    background-color: darkorchid;
+    color: aqua;
+}
